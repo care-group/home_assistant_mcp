@@ -11,6 +11,11 @@ PGID=1000
 case "$1" in
   start)
     echo "Starting Home Assistant container..."
+    # Create config directory if it doesn't exist
+    if [ ! -d "$CONFIG_DIR" ]; then
+      mkdir -p "$CONFIG_DIR"
+    fi
+
     sudo docker run -d \
       --name=$CONTAINER_NAME \
       --network=host \
