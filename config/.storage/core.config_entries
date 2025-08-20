@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "minor_version": 5,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {"created_at":"2025-08-20T13:39:17.000812+00:00","data":{},"disabled_by":null,"discovery_keys":{},"domain":"sun","entry_id":"01K33V94W895Y0BWQ2MK54AB3G","minor_version":1,"modified_at":"2025-08-20T13:39:17.000817+00:00","options":{},"pref_disable_new_entities":false,"pref_disable_polling":false,"source":"import","subentries":[],"title":"Sun","unique_id":null,"version":1},
+      {"created_at":"2025-08-20T13:39:17.236130+00:00","data":{},"disabled_by":null,"discovery_keys":{},"domain":"bluetooth","entry_id":"01K33V953M65K0J0GYP752PMQ5","minor_version":1,"modified_at":"2025-08-20T13:39:17.236135+00:00","options":{},"pref_disable_new_entities":false,"pref_disable_polling":false,"source":"integration_discovery","subentries":[],"title":"Intel Corporate None (34:41:5D:8A:2E:DC)","unique_id":"34:41:5D:8A:2E:DC","version":1},
+      {"created_at":"2025-08-20T13:39:17.239426+00:00","data":{},"disabled_by":null,"discovery_keys":{},"domain":"go2rtc","entry_id":"01K33V953QVFE20WE8YCWPV9M1","minor_version":1,"modified_at":"2025-08-20T13:39:17.239439+00:00","options":{},"pref_disable_new_entities":false,"pref_disable_polling":false,"source":"system","subentries":[],"title":"go2rtc","unique_id":null,"version":1},
+      {"created_at":"2025-08-20T13:39:17.264820+00:00","data":{},"disabled_by":null,"discovery_keys":{},"domain":"backup","entry_id":"01K33V954GNFG0R2M1JG08Z9SY","minor_version":1,"modified_at":"2025-08-20T13:39:17.264824+00:00","options":{},"pref_disable_new_entities":false,"pref_disable_polling":false,"source":"system","subentries":[],"title":"Backup","unique_id":null,"version":1}
+    ]
+  }
+}

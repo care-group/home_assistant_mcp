@@ -3,7 +3,7 @@
 # Change these if needed
 CONTAINER_NAME="homeassistant"
 IMAGE_NAME="linuxserver/homeassistant:latest"
-CONFIG_DIR="$HOME/homeassistant/config"
+CONFIG_DIR="$(dirname "$(realpath "$0")")/config"
 TZ="Europe/London"
 PUID=1000
 PGID=1000
